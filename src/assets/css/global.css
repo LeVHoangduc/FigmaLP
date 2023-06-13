@@ -1,3 +1,7 @@
+/*------------------------------------*\
+  #CSS VARIABLES
+\*------------------------------------*/
+
 :root {
   --primary-font: "Roboto";
   --fw-extrabold: 900;
@@ -11,6 +15,10 @@
   --bg-light-color: #ffffff;
   --bg-gradient-color: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
 }
+
+/*-----------------------------------------*\
+  #SOME CSS THAT BE REUSED IN MANY SECTIONS
+\*-----------------------------------------*/
 
 .text {
   font-family: var(--primary-font);

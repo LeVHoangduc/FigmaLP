@@ -1,3 +1,7 @@
+/*------------------------------------*\
+  #HEADER CSS
+\*------------------------------------*/
+
 .header {
   display: flex;
   flex-direction: column;
@@ -29,6 +33,10 @@
   z-index: 1;
 }
 
+/*------------------------------------*\
+  #NAVBAR CSS
+\*------------------------------------*/
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -46,27 +54,12 @@
   align-items: center;
 }
 
-.menu-list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 41px;
-}
-
-.menu-list__item {
-  font-weight: var(--fw-light);
-  text-decoration: none;
-}
-
-.menu-list__item:hover {
-  text-shadow: 0 0 5px white;
-}
-
 .navbar__action {
-  margin-left: 54px;
   display: flex;
   flex-wrap: nowrap;
   gap: 12px;
+
+  margin-left: 54px;
 }
 
 .navbar__input {
@@ -81,6 +74,30 @@
   font-weight: var(--fw-regular);
   font-size: 16px;
 }
+
+/*------------------------------------*\
+  #MENU LIST CSS
+\*------------------------------------*/
+
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 41px;
+}
+
+.menu-list__item {
+  font-weight: var(--fw-light);
+  text-decoration: none;
+}
+
+.menu-list__item:hover {
+  text-decoration: underline;
+}
+
+/*------------------------------------*\
+  #HEADER CONTENT CSS
+\*------------------------------------*/
 
 .header-content {
   display: flex;
