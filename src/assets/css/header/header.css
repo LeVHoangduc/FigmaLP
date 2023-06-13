@@ -3,58 +3,56 @@
 \*------------------------------------*/
 
 .header {
+  position: relative;
+  z-index: 9999;
+
   display: flex;
-  flex-direction: column;
-  padding: 0px;
+  flex-direction: row;
+  justify-content: space-between;
 
+  box-sizing: border-box;
+  padding: 25px;
+  margin-top: 20px;
   width: 100%;
-  height: 949px;
-
-  background: #var(--bg-light-color);
-}
-
-.header-bg {
-  z-index: -1;
-  position: absolute;
-}
-
-.header-bg__top {
-  position: absolute;
-  width: 100vw;
-  left: -50%;
-  z-index: 2;
-}
-
-.header-bg__bottom {
-  position: absolute;
-  width: 100vw;
-  left: -50%;
-  top: 58px;
-  z-index: 1;
 }
 
 /*------------------------------------*\
   #NAVBAR CSS
 \*------------------------------------*/
 
-.navbar {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-
-  box-sizing: border-box;
-  padding: 25px;
-  margin-top: 20px;
-}
-
-.navbar__right {
+.header__navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.navbar__action {
+.navbar__right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 41px;
+}
+
+.navbar__menu__item {
+  font-weight: var(--fw-light);
+  text-decoration: none;
+}
+
+.navbar__menu__item:hover {
+  text-decoration: underline;
+}
+
+/*------------------------------------*\
+  #SUBCRIBE FORM CSS
+\*------------------------------------*/
+
+.subscribe-form {
   display: flex;
   flex-wrap: nowrap;
   gap: 12px;
@@ -62,95 +60,15 @@
   margin-left: 54px;
 }
 
-.navbar__input {
+.subscribe-form__input {
   box-sizing: border-box;
   width: 273px;
   padding: 19px 39px;
 }
 
-.navbar__subcribe-btn {
+.subscribe-form__subcribe-btn {
   width: 141px;
   height: 54px;
   font-weight: var(--fw-regular);
   font-size: 16px;
-}
-
-/*------------------------------------*\
-  #MENU LIST CSS
-\*------------------------------------*/
-
-.menu-list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 41px;
-}
-
-.menu-list__item {
-  font-weight: var(--fw-light);
-  text-decoration: none;
-}
-
-.menu-list__item:hover {
-  text-decoration: underline;
-}
-
-/*------------------------------------*\
-  #HEADER CONTENT CSS
-\*------------------------------------*/
-
-.header-content {
-  display: flex;
-  flex-direction: row;
-  margin-top: 25px;
-}
-
-.header-content__screen {
-  transition: transform 0.2s ease;
-}
-
-.header-content__screen:hover {
-  transform: scale(1.1);
-}
-
-.header-content__right {
-  position: relative;
-  left: -30px;
-  top: 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 64px 99px 64px 0px;
-  gap: 60px;
-
-  width: 420px;
-  height: 471px;
-}
-
-.header-content__big-text {
-  font-weight: var(--fw-extrabold);
-  font-size: 55px;
-  line-height: 66px;
-  letter-spacing: 0.2px;
-}
-
-.header-content__small-text {
-  font-weight: var(--fw-bold);
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-
-  padding-right: 100px;
-}
-
-.header-content__subcribe-btn {
-  align-items: center;
-  padding: 16px 0px;
-
-  width: 236px;
-  height: 65px;
-
-  font-size: 22px;
-  line-height: 33px;
-  font-weight: var(--fw-bold);
 }

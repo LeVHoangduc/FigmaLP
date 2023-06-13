@@ -20,6 +20,24 @@
   #SOME CSS THAT BE REUSED IN MANY SECTIONS
 \*-----------------------------------------*/
 
+h1 {
+  font-weight: var(--fw-extrabold);
+  font-size: 55px;
+  line-height: 66px;
+  letter-spacing: 0.2px;
+}
+
+h4 {
+  font-weight: var(--fw-bold);
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.content {
+  background-color: var(--bg-light-color);
+}
+
 .text {
   font-family: var(--primary-font);
 }
