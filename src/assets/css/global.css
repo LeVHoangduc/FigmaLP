@@ -11,7 +11,8 @@
   --primary-color: #ef2779;
   --secondary-color: #38a3f1;
   --light-color: #ffffff;
-  --dark-color: #374754;
+  --dark-color: #252b42;
+  --
   --bg-light-color: #ffffff;
   --bg-gradient-color: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
 }
@@ -25,6 +26,20 @@ h1 {
   font-size: 55px;
   line-height: 66px;
   letter-spacing: 0.2px;
+}
+
+h2 {
+  font-weight: var(--fw-light);
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+h3 {
+  font-weight: var(--fw-bold);
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
 }
 
 h4 {
@@ -42,6 +57,11 @@ h4 {
   font-family: var(--primary-font);
 }
 
+.text--center {
+  width: 100%;
+  text-align: center;
+}
+
 .text--light {
   color: var(--light-color);
 }
@@ -56,6 +76,10 @@ h4 {
 
 .text--secondary {
   color: var(--secondary-color);
+}
+
+.text--sub {
+  color: #374754;
 }
 
 .input {
