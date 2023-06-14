@@ -12,7 +12,7 @@
   --secondary-color: #38a3f1;
   --light-color: #ffffff;
   --dark-color: #252b42;
-  --
+  --gray-color: #374754;
   --bg-light-color: #ffffff;
   --bg-gradient-color: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
 }
@@ -20,6 +20,13 @@
 /*-----------------------------------------*\
   #SOME CSS THAT BE REUSED IN MANY SECTIONS
 \*-----------------------------------------*/
+
+p {
+  font-weight: var(--fw-light);
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
 
 h1 {
   font-weight: var(--fw-extrabold);
@@ -78,8 +85,8 @@ h4 {
   color: var(--secondary-color);
 }
 
-.text--sub {
-  color: #374754;
+.text--gray {
+  color: var(--gray-color);
 }
 
 .input {
@@ -109,6 +116,10 @@ h4 {
 
 .btn--light {
   background-color: var(--light-color);
+}
+
+.btn--secondary {
+  background-color: var(--secondary-color);
 }
 
 /*-----------------------------------------*\

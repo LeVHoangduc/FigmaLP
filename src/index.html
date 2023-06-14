@@ -6,13 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figma Land</title>
     <!-- css main -->
-    <link rel="stylesheet" href="./assets/css/index.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/global.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/header.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/hero.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/feature.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/second-hero.css"
+      type="text/css"
+    />
     <!-- end css main -->
   </head>
   <body>
     <header class="header">
       <div class="header__logo">
-        <img src=".\assets\images\header\logo.png" alt="" />
+        <a href="/">
+          <img src="./assets/images/header/logo.png" alt="" />
+        </a>
       </div>
       <div class="navbar__right">
         <nav class="header__navbar navbar">
@@ -62,17 +73,17 @@
         <div class="hero__bg">
           <img
             class="hero__bg__top"
-            src=".\assets\images\header\gradient_reg_top.png"
+            src="./assets/images/header/gradient_reg_top.png"
           />
           <img
             class="hero__bg__bottom"
-            src=".\assets\images\header\gradient_reg_bot.png"
+            src="./assets/images/header/gradient_reg_bot.png"
           />
         </div>
         <img
           class="hero__screen"
-          src=".\assets\images\hero\browser_screen.png"
-          alt=""
+          src="./assets/images/hero/browser_screen.png"
+          alt="preview product image"
         />
         <div class="hero__right">
           <h1 class="text text--light">We focus on ergonomics</h1>
@@ -92,10 +103,69 @@
           At your fingertips
         </h3>
         <h2 class="feature__title text text--center text--dark">Features</h2>
-        <h4 class="feature__sub-title text text--center text--sub">
+        <h4 class="feature__sub-title text text--center text--gray">
           Most calendars are designed for teams. Slate is designed for
           freelancers
         </h4>
+        <ul class="feature__list">
+          <li class="feature__item">
+            <div class="feature__item__title">
+              <div class="feature__item__circle">
+                <img src="./assets/images/feature/icon_1.png" alt="icon" />
+              </div>
+              <h3 class="text text--dark">
+                The best products start with Sketch
+              </h3>
+            </div>
+            <p class="feature__item__detail text text--gray">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </li>
+          <li class="feature__item">
+            <div class="feature__item__title">
+              <div class="feature__item__circle">
+                <img src="./assets/images/feature/icon_2.png" alt="icon" />
+              </div>
+              <h3 class="text text--dark">Fastest way to organize</h3>
+            </div>
+            <p class="feature__item__detail text text--gray">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </li>
+          <li class="feature__item">
+            <div class="feature__item__title">
+              <div class="feature__item__circle">
+                <img src="./assets/images/feature/icon_3.png" class="icon" />
+              </div>
+              <h3 class="text text--dark">Work better together</h3>
+            </div>
+            <p class="feature__item__detail text text--gray">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="second-hero">
+        <div class="second-hero__title">
+          <h2 class="text text--dark text--center">
+            Lightning fast prototyping
+          </h2>
+          <h4 class="text text--gray text--center">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h4>
+        </div>
+        <button class="second-hero__btn btn btn--secondary text text--light">
+          <h3 class="text text--light text--center">Try For Free</h3>
+        </button>
+        <img
+          class="second-hero__img"
+          src="./assets/images/second-hero/macbook_hero.png"
+          alt="preview product image"
+        />
       </section>
     </div>
   </body>
