@@ -4,7 +4,89 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Figma Land</title>
+    <!-- css main -->
+    <link rel="stylesheet" href="./assets/css/index.css" type="text/css" />
+    <!-- end css main -->
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src=".\assets\images\header\logo.png" alt="" />
+      </div>
+      <div class="navbar__right">
+        <nav class="header__navbar navbar">
+          <ul class="navbar__menu">
+            <li>
+              <a class="navbar__menu__item text text--light" href="/">Home</a>
+            </li>
+            <li>
+              <a class="navbar__menu__item text text--light" href="/product">
+                Product
+              </a>
+            </li>
+            <li>
+              <a class="navbar__menu__item text text--light" href="/pricing">
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a class="navbar__menu__item text text--light" href="/about">
+                About
+              </a>
+            </li>
+            <li>
+              <a class="navbar__menu__item text text--light" href="/contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="subscribe-form">
+          <input
+            class="subscribe-form__input input"
+            type="text"
+            placeholder="Your Email"
+          />
+          <button
+            class="subscribe-form__subcribe-btn btn btn--light text--primary"
+            type="button"
+          >
+            Subcribe
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="content">
+      <section class="hero">
+        <div class="hero__bg">
+          <img
+            class="hero__bg__top"
+            src=".\assets\images\header\gradient_reg_top.png"
+          />
+          <img
+            class="hero__bg__bottom"
+            src=".\assets\images\header\gradient_reg_bot.png"
+          />
+        </div>
+        <img
+          class="hero__screen"
+          src=".\assets\images\hero\browser_screen.png"
+          alt=""
+        />
+        <div class="hero__right">
+          <h1 class="text text--light">We focus on ergonomics</h1>
+          <h4 class="text text--light">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h4>
+          <button
+            class="hero__subcribe-btn btn btn--light text text--secondary"
+          >
+            Try For Free
+          </button>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
