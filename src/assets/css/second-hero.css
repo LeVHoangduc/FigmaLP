@@ -22,10 +22,18 @@
   width: 236px;
   height: 65px;
 
-  margin: 70px 0px 90px;
+  margin: 70px 0px 110px;
 }
 
 .second-hero__img {
   width: 1033.26px;
   height: 577.74px;
+
+  margin-bottom: 130px;
+
+  transition: transform 0.2s ease;
+}
+
+.second-hero__img:hover {
+  transform: scale(1.05);
 }
