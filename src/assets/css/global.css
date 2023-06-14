@@ -89,6 +89,20 @@ h4 {
   color: var(--gray-color);
 }
 
+.text--small {
+  font-weight: var(--fw-regular);
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+.text--big {
+  font-weight: var(--fw-bold);
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
 .input {
   border: 1px solid #e8e8e8;
   border-radius: 39px;
@@ -116,6 +130,10 @@ h4 {
 
 .btn--light {
   background-color: var(--light-color);
+}
+
+.btn--primary {
+  background-color: var(--primary-color);
 }
 
 .btn--secondary {

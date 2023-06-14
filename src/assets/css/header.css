@@ -69,6 +69,4 @@
 .subscribe-form__subcribe-btn {
   width: 141px;
   height: 54px;
-  font-weight: var(--fw-regular);
-  font-size: 16px;
 }
