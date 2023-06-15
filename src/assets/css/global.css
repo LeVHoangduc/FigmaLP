@@ -18,8 +18,22 @@
 }
 
 /*-----------------------------------------*\
-  #SOME CSS THAT BE REUSED IN MANY SECTIONS
+  #GLOBAL ELEMENTS's CSS
 \*-----------------------------------------*/
+
+a {
+  font-weight: var(--fw-light);
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
 p {
   font-weight: var(--fw-light);
@@ -62,6 +76,10 @@ h5 {
   line-height: 18px;
   letter-spacing: 0.1px;
 }
+
+/*-----------------------------------------*\
+  #GLOBAL CLASSES's CSS
+\*-----------------------------------------*/
 
 .content {
   background-color: var(--bg-light-color);
@@ -150,6 +168,7 @@ h5 {
 /*-----------------------------------------*\
   #SET FONT FAMILY
 \*-----------------------------------------*/
+
 @font-face {
   font-family: "Roboto";
   font-weight: 100;
