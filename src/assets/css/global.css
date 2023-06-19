@@ -14,6 +14,7 @@
   --dark-color: #252b42;
   --gray-color: #374754;
   --bg-light-color: #ffffff;
+  --bg-dark-color: #252b42;
   --bg-gradient-color: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
 }
 
@@ -133,6 +134,7 @@ h5 {
   border-radius: 39px;
   height: 54px;
   transition: transform 0.2s ease;
+  box-sizing: border-box;
 }
 
 .input:hover {
