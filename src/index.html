@@ -16,6 +16,15 @@
       href="./assets/css/second-hero.css"
       type="text/css"
     />
+    <link rel="stylesheet" href="./assets/css/cta.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/partner.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/testimonial.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./assets/css/pricing.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" type="text/css" />
     <!-- end css main -->
   </head>
   <body>
@@ -23,34 +32,26 @@
     <header class="header">
       <div class="header__logo">
         <a href="/">
-          <img src="/src/assets/images/header/logo.png" alt="" />
+          <img src="/assets/images/header/logo.png" alt="" />
         </a>
       </div>
       <div class="navbar__right">
         <nav class="header__navbar navbar">
           <ul class="navbar__menu">
             <li>
-              <a class="navbar__menu__item text text--light" href="/">Home</a>
+              <a class="text text--light" href="/">Home</a>
             </li>
             <li>
-              <a class="navbar__menu__item text text--light" href="/product">
-                Product
-              </a>
+              <a class="text text--light" href="/product"> Product </a>
             </li>
             <li>
-              <a class="navbar__menu__item text text--light" href="/pricing">
-                Pricing
-              </a>
+              <a class="text text--light" href="/pricing"> Pricing </a>
             </li>
             <li>
-              <a class="navbar__menu__item text text--light" href="/about">
-                About
-              </a>
+              <a class="text text--light" href="/about"> About </a>
             </li>
             <li>
-              <a class="navbar__menu__item text text--light" href="/contact">
-                Contact
-              </a>
+              <a class="text text--light" href="/contact"> Contact </a>
             </li>
           </ul>
         </nav>
@@ -61,7 +62,7 @@
             placeholder="Your Email"
           />
           <button
-            class="subscribe-form__subcribe-btn btn btn--light text--primary"
+            class="subscribe-form__subcribe-btn btn btn--light text--primary text--small"
             type="button"
           >
             Subcribe
@@ -77,16 +78,16 @@
         <div class="hero__bg">
           <img
             class="hero__bg__top"
-            src="./assets/images/header/gradient_reg_top.png"
+            src="/assets/images/header/gradient_reg_top.png"
           />
           <img
             class="hero__bg__bottom"
-            src="./assets/images/header/gradient_reg_bot.png"
+            src="/assets/images/header/gradient_reg_bot.png"
           />
         </div>
         <img
           class="hero__screen"
-          src="./assets/images/hero/browser_screen.png"
+          src="/assets/images/hero/browser_screen.png"
           alt="preview product image"
         />
         <div class="hero__right">
@@ -96,7 +97,7 @@
             freelancers
           </h4>
           <button
-            class="hero__subcribe-btn btn btn--light text text--secondary"
+            class="hero__subcribe-btn btn btn--light text text--secondary text--big"
           >
             Try For Free
           </button>
@@ -118,7 +119,7 @@
           <li class="feature__item">
             <div class="feature__item__title">
               <div class="feature__item__circle">
-                <img src="./assets/images/feature/icon_1.png" alt="icon" />
+                <img src="/assets/images/feature/icon_1.png" alt="icon" />
               </div>
               <h3 class="text text--dark">
                 The best products start with Sketch
@@ -132,7 +133,7 @@
           <li class="feature__item">
             <div class="feature__item__title">
               <div class="feature__item__circle">
-                <img src="./assets/images/feature/icon_2.png" alt="icon" />
+                <img src="/assets/images/feature/icon_2.png" alt="icon" />
               </div>
               <h3 class="text text--dark">Fastest way to organize</h3>
             </div>
@@ -144,7 +145,7 @@
           <li class="feature__item">
             <div class="feature__item__title">
               <div class="feature__item__circle">
-                <img src="./assets/images/feature/icon_3.png" class="icon" />
+                <img src="/assets/images/feature/icon_3.png" class="icon" />
               </div>
               <h3 class="text text--dark">Work better together</h3>
             </div>
@@ -168,16 +169,282 @@
             freelancers
           </h4>
         </div>
-        <button class="second-hero__btn btn btn--secondary text text--light">
-          <h3 class="text text--light text--center">Try For Free</h3>
+        <button
+          class="second-hero__btn btn btn--secondary text text--light text--big"
+        >
+          Try For Free
         </button>
         <img
           class="second-hero__img"
-          src="./assets/images/second-hero/macbook_hero.png"
+          src="/assets/images/second-hero/macbook_hero.png"
           alt="preview product image"
         />
       </section>
       <!-- End second-hero section -->
+
+      <!-- Start CTA section -->
+      <section class="cta">
+        <div class="cta__title">
+          <h3 class="text text--light text--center">At your fingertips</h3>
+          <h2 class="text text--light text--center">
+            Lightning fast prototyping
+          </h2>
+        </div>
+        <div class="cta__message">
+          <h3 class="text text--light text--center">
+            Subscribe to our Newsletter
+          </h3>
+          <p class="text text--light text--center">
+            Available exclusivery on Figmaland
+          </p>
+        </div>
+        <div class="cta__form">
+          <input type="text" class="input" placeholder="Your Email" />
+          <button class="btn btn--primary text text--light text-small">
+            Subcribe
+          </button>
+        </div>
+      </section>
+      <!-- End CTA section -->
+
+      <!-- Start partner section -->
+      <section class="partner">
+        <div class="partner__title">
+          <h2 class="text text--dark text--center">Partners</h2>
+          <h4 class="text text--gray text--center">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h4>
+        </div>
+        <ul class="partner__list">
+          <li class="partner__list__item">
+            <h5 class="text text--gray text--center">Client Name</h5>
+            <img src="/assets/images/partner/logo_1.svg" alt="partner logo" />
+            <p class="text text--gray text--center">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+          </li>
+          <li class="partner__list__item">
+            <h5 class="text text--gray text--center">Client Name</h5>
+            <img src="/assets/images/partner/logo_2.svg" alt="partner logo" />
+            <p class="text text--gray text--center">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+          </li>
+          <li class="partner__list__item">
+            <h5 class="text text--gray text--center">Client Name</h5>
+            <img src="/assets/images/partner/logo_3.svg" alt="partner logo" />
+            <p class="text text--gray text--center">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+          </li>
+          <li class="partner__list__item">
+            <h5 class="text text--gray text--center">Client Name</h5>
+            <img src="/assets/images/partner/logo_4.svg" alt="partner logo" />
+            <p class="text text--gray text--center">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+          </li>
+          <li class="partner__list__item">
+            <h5 class="text text--gray text--center">Client Name</h5>
+            <img src="/assets/images/partner/logo_5.svg" alt="partner logo" />
+            <p class="text text--gray text--center">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+          </li>
+          <li class="partner__list__item">
+            <h5 class="text text--gray text--center">Client Name</h5>
+            <img src="/assets/images/partner/logo_6.svg" alt="partner logo" />
+            <p class="text text--gray text--center">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+          </li>
+        </ul>
+        <button
+          class="partner__btn btn btn--secondary text text--light text--big"
+        >
+          Try For Free
+        </button>
+      </section>
+      <!-- End partner section -->
+
+      <!-- Start testimonial section -->
+      <section class="testimonial">
+        <h2 class="testimonial__title text text--dark text--center">
+          Testimonials
+        </h2>
+        <img
+          src="/assets/images/testimonial/dropbox.png"
+          alt="dropbox logo"
+          class="testimonial__logo"
+        />
+        <h4 class="testimonial__message text text--gray text--center">
+          Most calendars are designed for teams. Slate is designed for
+          freelancers who want a simple way to plan their schedule.
+        </h4>
+        <div class="testimonial__client">
+          <img
+            src="/assets/images/testimonial/avatar.png"
+            alt="client's avatar"
+            class="testimonial__client__avatar"
+          />
+          <div class="testimonial__client__information">
+            <h5 class="text text--gray">Organize across</h5>
+            <a href="" class="text text--dark">Ui designer</a>
+          </div>
+        </div>
+        <button
+          class="testimonial__btn btn btn--secondary text text--light text--big"
+        >
+          More Testimonials
+        </button>
+      </section>
+      <!-- End testimonial section -->
+
+      <!-- Start pricing section -->
+      <section class="pricing">
+        <h2 class="pricing__title text text--dark">Pricing</h2>
+        <h4 class="pricing__message text text--gray text--center">
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </h4>
+        <ul class="pricing__pricing-list">
+          <li class="pricing__card">
+            <div class="pricing__card__title">
+              <h3 class="text text--dark">Free</h3>
+              <h5 class="text text--gray">Organize across all apps by hand</h5>
+            </div>
+            <div class="pricing__card__price">
+              <h1 class="text text--dark">0</h1>
+              <div class="col">
+                <h3 class="text text--dark">$</h3>
+                <h5 class="text text--gray">Per Month</h5>
+              </div>
+            </div>
+            <button
+              class="pricing__card__btn btn btn--secondary text text--light text--small"
+            >
+              Order Now
+            </button>
+          </li>
+          <li class="pricing__card">
+            <div class="pricing__card__title">
+              <h3 class="text text--dark">STANDARD</h3>
+              <h5 class="text text--gray">Organize across all apps by hand</h5>
+            </div>
+            <div class="pricing__card__price">
+              <h1 class="text text--dark">10</h1>
+              <div class="col">
+                <h3 class="text text--dark">$</h3>
+                <h5 class="text text--gray">Per Month</h5>
+              </div>
+            </div>
+            <button
+              class="pricing__card__btn btn btn--secondary text text--light text--small"
+            >
+              Order Now
+            </button>
+          </li>
+          <li class="pricing__card pricing__card--highlight">
+            <div class="pricing__card__title">
+              <h3 class="text text--light">BUSINESS</h3>
+              <h5 class="text text--light">Organize across all apps by hand</h5>
+            </div>
+            <div class="pricing__card__price">
+              <h1 class="text text--light">99</h1>
+              <div>
+                <h3 class="text text--light">$</h3>
+                <h5 class="text text--light">Per Month</h5>
+              </div>
+            </div>
+            <button
+              class="pricing__card__btn btn btn--light text text--primary text--small"
+            >
+              Order Now
+            </button>
+          </li>
+        </ul>
+      </section>
+      <!-- End pricing section -->
+
+      <!-- Start contact section -->
+      <section class="contact">
+        <div class="contact__title">
+          <h2 class="text text--light text--center">Contact Us</h2>
+          <h4 class="text text--light text--center">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h4>
+        </div>
+        <div class="contact__content">
+          <div class="contact__form">
+            <p class="text text--grey text--center">Contact us</p>
+            <input
+              type="text"
+              class="contact__form__input input"
+              placeholder="Your Name"
+            />
+            <input
+              type="text"
+              class="contact__form__input input"
+              placeholder="Your Email"
+            />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="contact__form__textarea"
+              placeholder="Your Message"
+            ></textarea>
+            <button
+              class="contact__form__btn btn btn--primary text text--light text--light"
+            >
+              Send
+            </button>
+          </div>
+          <div class="contact__info">
+            <div class="contact__info__row">
+              <img
+                src="/assets/images/contact/icon_1.svg"
+                alt="location icon"
+              />
+              <h5 class="text text--light">
+                6386 Spring St undefined Anchorage, Georgia 12473 United States
+              </h5>
+            </div>
+            <div class="contact__info__row">
+              <img
+                src="/assets/images/contact/icon_2.svg"
+                alt="phone number icon"
+              />
+              <h5 class="text text--light">(843) 555-0130</h5>
+            </div>
+            <div class="contact__info__row">
+              <img src="/assets/images/contact/icon_3.svg" alt="email icon" />
+              <h5 class="text text--light">willie.jennings@example.com</h5>
+            </div>
+            <div class="contact__info__last-row">
+              <img src="/assets/images/contact/icon_4.svg" alt="tweet icon" />
+              <img
+                src="/assets/images/contact/icon_5.svg"
+                alt="facebook icon"
+              />
+              <img
+                src="/assets/images/contact/icon_6.svg"
+                alt="linkedin icon"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End contact section -->
     </div>
   </body>
 </html>

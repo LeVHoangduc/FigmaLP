@@ -6,6 +6,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  height: 1271px;
 }
 
 .second-hero__title {
