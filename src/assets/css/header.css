@@ -39,15 +39,6 @@
   gap: 41px;
 }
 
-.navbar__menu__item {
-  font-weight: var(--fw-light);
-  text-decoration: none;
-}
-
-.navbar__menu__item:hover {
-  text-decoration: underline;
-}
-
 /*------------------------------------*\
   #SUBCRIBE FORM CSS
 \*------------------------------------*/

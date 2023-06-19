@@ -14,12 +14,27 @@
   --dark-color: #252b42;
   --gray-color: #374754;
   --bg-light-color: #ffffff;
+  --bg-dark-color: #252b42;
   --bg-gradient-color: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
 }
 
 /*-----------------------------------------*\
-  #SOME CSS THAT BE REUSED IN MANY SECTIONS
+  #GLOBAL ELEMENTS
 \*-----------------------------------------*/
+
+a {
+  font-weight: var(--fw-light);
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
 p {
   font-weight: var(--fw-light);
@@ -62,6 +77,10 @@ h5 {
   line-height: 18px;
   letter-spacing: 0.1px;
 }
+
+/*-----------------------------------------*\
+  #GLOBAL CLASSES
+\*-----------------------------------------*/
 
 .content {
   background-color: var(--bg-light-color);
@@ -115,6 +134,7 @@ h5 {
   border-radius: 39px;
   height: 54px;
   transition: transform 0.2s ease;
+  box-sizing: border-box;
 }
 
 .input:hover {
@@ -150,6 +170,7 @@ h5 {
 /*-----------------------------------------*\
   #SET FONT FAMILY
 \*-----------------------------------------*/
+
 @font-face {
   font-family: "Roboto";
   font-weight: 100;
